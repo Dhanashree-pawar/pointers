@@ -1,0 +1,10 @@
+int main()
+{
+  
+   int *p;
+   p= (int *)malloc(5*sizeof(int));
+p[0]=45; p[1]=344; p[2]=45;p[3]=456;p[4]=66;
+p++;
+cout<<*p;
+    return 0;
+}
